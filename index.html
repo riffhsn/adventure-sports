@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"/>
+    <title></title>
+  </head>
+  <body>
+
+    <!--Navbar starts-->
+    <nav class="navbar navbar-expand-lg p-3">
+        <div class="container">
+          <div class="logo col-lg-2">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" class="w-50"></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse col-lg-10" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Web Development</a></li>
+                  <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                  <li><a class="dropdown-item" href="#">Cybersecurity</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-dark mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Login
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Welcome! Login to your account!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary justify-center">Sign in</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Login</button>
+      </div>
+    </div>
+  </div>
+</div>         </div>
+        </div>
+      </nav>  
+    <!--Navbar ends-->
+
+    <!--Banner starts-->
+      <div id="banner">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/paragliding2.jpg" class="d-block w-100" alt="paragliding">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/rafting.jpg" class="d-block w-100" alt="rafting">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/canoeing2.jpg" class="d-block w-100" alt="canoeing">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+        <!--Banner ends-->
+
+        <!-- About Us starts-->
+      <div class="container">
+        <div id="aboutus">
+          <div class="aboutustitle p-5">
+            <h2 class="text-center">About Us</h2>
+          </div>
+          <div class="aboutcontent d-flex">
+            <div class="aboutvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/FBT_hmXKAmU?si=hcPqEcCtdXofeH4L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="abouttext mx-5 mt-3">
+              <p>Our activities are designed not only to let you have an amazing, fun and thrilling experience, but also burn calories, reduce stress, pump adrenaline, improve fitness and get a healthy dose of Vitamin D. Adventure Sports began as a lifestyle watersports brand in 1991, operating with resorts and leisure destinations at Turkey’s Aegean and Mediterranean coastal resorts. In 1998, Adventure Sports embarked on its first global expansion to the UAE. Today, we are recognized as the partner of choice for lifestyle venues, adventure seekers and 5* star resorts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- About Us ends-->
+
+        <!--Services section starts -->
+      <div id="services">
+        <div class="container">
+          <div class="servicetitle text-center"><h2>Our Services</h2></div>
+          <div class="service_content d-flex justify-center">
+            <div class="service_item text-center m-5">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/paragliding2.jpg" class="card-img-top" alt="paragliding2">
+                <div class="card-body">
+                  <h5 class="card-title">Paragliding</h5>
+                  <p class="card-text">Are you looking for a thrilling paragliding experience? Then look no further, book your next paragliding experience with us!</p>
+                  <a href="#" class="btn btn-primary">Book Now!</a>
+                </div>
+              </div>
+            </div>
+            <div class="service_item m-5 text-center">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/rafting2.jpg" class="card-img-top" alt="rafting2">
+                <div class="card-body">
+                  <h5 class="card-title">Rafting</h5>
+                  <p class="card-text">Are you looking for a thrilling paragliding experience? Then look no further, book your next rafting experience with us!</p>
+                  <a href="#" class="btn btn-primary">Book Now!</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="service_item m-5 text-center">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/canoeing2.jpg" class="card-img-top" alt="canoeing2">
+                <div class="card-body">
+                  <h5 class="card-title">Canoeing</h5>
+                  <p class="card-text">Are you looking for a thrilling paragliding experience? Then look no further, book your next canoeing experience with us!</p>
+                  <a href="#" class="btn btn-primary">Book Now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!--Services section ends -->
+
+        <!-- FAQ section starts -->
+<div class="container">
+  <div id="faq">
+    <div class="faqtitle text-center">
+      <h2>Frequently Asked Questions</h2>
+      <p>Get to know us better! Click on our Frequently asked questions to find out more about our services.</p>
+    </div>
+   <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <strong>What adventure sports do we provide?</strong></button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Paragliding</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables.
+        </div>
+        <div class="accordion-body">
+          <strong>River Rafting</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables.
+        </div>
+        <div class="accordion-body">
+          <strong>Canoeing</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         <strong> Is it safe to experience these adventure sports with us?</strong>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <strong>Do we have trained trainers to assist the sports?</strong>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+        <!-- FAQ section ends -->
+
+<!--Contact form starts here -->
+<div id="contact">
+<div class="container">
+  <div class="contact_title text-center">
+    <h2>Get in touch!</h2>
+    <p>Would you like to experience the adrenaline rush of adventure sports? Then drop us a message below!</p>
+  </div>
+  <div class="contact_form">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="inputName">
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-12">
+        <div class="text-area">
+          <label for="inputMsg" class="form-label">Write your message</label>
+          <input type="textarea" class="form-control">
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+
+<!--Contact form ends here -->
+
+<!-- Footer section starts here -->
+<section id="footer">
+<div class="container">
+  <div class="row p-5">
+    <div class="div col-lg-4">
+      <div class="footer_content">
+        <p>About Us</p>
+        <p>Book with us</p>
+        <p>Services policy</p>
+      </div>
+  </div>
+  <div class="div col-lg-4">
+    <div class="footer_content">
+      <p>Payment options</p>
+      <p>Refund policy</p>
+      <p>Terms & Conditions</p>
+    </div>
+</div>
+<div class="div col-lg-4">
+  <div class="footer_content">
+    <p>Contact Us</p>
+    <p>Email: info@adventuretours.com</p>
+    <p>Phone: +880178393923</p>
+  </div>
+  </div>
+</div>
+</section>
+<!-- Footer section ends here -->
+
+<!-- Copyright section starts here -->
+<section id="copyright">
+  <div class="container">
+    <div class="copyright_text">
+      <p>Copyright 2024 © United States Council for International Business. All Rights Reserved.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Copyright section ends here -->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

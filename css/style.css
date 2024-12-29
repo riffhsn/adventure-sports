@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+body {
+    background-color: black;
+}
+
+#aboutus, #services, #faq, #contact {
+    padding: 50px;
+}
+
+h2 {
+    font-family: "Raleway", serif; 
+    font-weight: 700;
+    color: orange;
+}
+p{
+    color: orange;
+    font-family: "Raleway", serif; 
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.navbar {
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);}
+
+#banner .carousel-item img {
+    height: 100vh;
+}
+
+.abouttext p {
+    color: orange;
+}
+
+#services {
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);}
+
+.servicetitle h2 {
+    color: black;
+}
+.service_item .btn {
+    background-color: orange;
+    border: none;
+    box-shadow: 10px 10px 32px -6px rgba(232,177,96,1);
+}
+
+.service_item .btn:hover {
+    background-color: white;
+    border: 1px solid orange;
+    color: black;
+}
+
+.service_item {
+    transition: all linear .3s;
+    border: 1px solid orange;
+    border-radius: 10px;
+    box-shadow: 10px 10px 32px -6px rgba(232,177,96,1);
+}
+
+.service_item:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+color: black;
+font-size: 20px;}
+
+#contact {
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+}
+
+.contact_title h2, p {
+    color: black;
+}
+
+.contact_form .btn {
+    background-color: black;
+    border: none;
+    box-shadow: 10px 10px 32px -6px rgba(232,177,96,1);
+}
+
+.footer_content p {
+    color: white;
+}
+
+.copyright_text p {
+    color: white;
+    text-align: center;
+}
+
